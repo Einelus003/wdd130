@@ -1,3 +1,6 @@
+:root{
+    
+}
 main{
     max-width: 840px;
 }
@@ -17,14 +20,12 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+}
+   
     
-}
-p{
-    padding: 0;
-}
 footer{
     margin-top: 15px;
-    border-top: 1 px solid #000;
+    border-top: 1px solid #000;
     text-align: center;
 }
 nav{background-color: darkblue;
