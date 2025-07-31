@@ -35,7 +35,7 @@ nav a {
 
 .hero {
     background: url('../images/banner.jpg') center/cover no-repeat;
-    color: white;
+    color: rgb(82, 80, 80);
     text-align: center;
     padding: 4rem 1rem;
     box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.4);
