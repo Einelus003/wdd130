@@ -1,37 +1,60 @@
 <!DOCTYPE html>
-
+<html lang="fr">
 
 <head>
-    <link rel="stylesheet" href="styles/wood.css">
     <meta charset="utf-8">
-    <meta name="viewport " content="width=device-width,initial-scale=1.0">
-    <title>Woudia Couture </title>
-    <meta name="description" content=" Woudia's Couture Website ">
-    <meta name="author" content ="Woudia Darby ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woudia Couture</title>
+    <meta name="description" content="Woudia's Couture Website">
+    <meta name="author" content="Woudia Darby">
+    <link rel="stylesheet" href="styles/wood.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
-            <a href="#">Home </a>
-            
-
+            <a href="#">Accueil</a>
+            <a href="#">À propos</a>
+            <a href="#">Collections</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
-    <main>
-        <h1>Woudia Couture </h1>
-        <img src="images/woodlogo.png" alt="Logo" width="200">
-        <p>When you dream about Fashion, we make your dream comes true</p>
 
+    <section class="hero">
+        <h1>Bienvenue chez Woudia Couture</h1>
+        <p>Quand vous rêvez de mode, nous réalisons votre rêve.</p>
+    </section>
 
-    </main>
-    <aside>
-        <h2></h2>
-        <img src="images/pyron.png" alt="Pyron">
-        <p> We are located at pyron, we offer dresses, suits, ties, pants, wedding dresses.</p> 
-          <p>  If you need more information please contact us at  509 000 0000</p>
-        
-    </aside>
+    <div class="grid-container">
+        <main>
+            <img src="images/woodlogo.png" alt="Logo" width="200">
+            <p>Nous sommes situés à Pyron. Nous proposons des robes, des costumes, des cravates, des pantalons et des robes de mariée.</p>
+            <p>Pour plus d'informations, veuillez nous contacter au 509 3850 4013.</p>
+
+            <section class="contact">
+                <h2>Contactez-nous</h2>
+                <form action="#" method="post">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </main>
+
+        <aside>
+            <img src="images/pyron.png" alt="Pyron">
+        </aside>
+    </div>
+
     <footer>
-        <p>© 2025 🌳 Inelus Darby Woudia 🌳Thomassin, port-au-prince, Haiti </p>
+        <p>&copy; 2025 🌳 Woudia Darby 🌳 Thomassin, Port-au-Prince, Haïti</p>
+        <p><a href="mailto:contact@woudiacouture.com">contact@woudiacouture.com</a></p>
     </footer>
 </body>
+
+</html>
