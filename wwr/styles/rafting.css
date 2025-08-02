@@ -105,3 +105,96 @@ footer nav.socialmedia {
 footer nav.socialmedia img {
   width: 30px;
   height: 30px;}
+
+
+  form {
+  background-color: var(--accent1-color);
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+form button[type="submit"] {
+  margin-top: 1.5rem;
+  background-color: var(--accent2-color);
+  color: #333;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #c0f280;
+}
+
+.employee-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.employee {
+  text-align: center;
+  max-width: 200px;
+}
+
+.employee img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+}
+
+.employee figcaption {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .employee-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
